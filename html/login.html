@@ -1,0 +1,954 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>登陆</title>
+<style type="text/css">
+	/* Blue button as seen on translate.google.com*/
+button.blue {
+    color: white;
+    background: #4C8FFB;
+    border: 1px #3079ED solid;
+    box-shadow: inset 0 1px 0 #80B0FB;
+}
+
+button.blue:hover {
+    border: 1px #2F5BB7 solid;
+    box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;
+    background: #3F83F1;
+}
+
+button.blue:active {
+    box-shadow: inset 0 2px 5px #2370FE;   
+}
+h1 {
+    font: 150%/150% 'Freckle Face', cursive;
+}
+.titletext {
+	font-size: 30px;
+	font-weight: bold;
+	color: #00CCFF;
+	line-height: 50px;
+}
+.GIxHAe {
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 24px;
+    min-width: 0;
+}
+.XLK0Od {
+    background-color: white;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+<!--
+#Layer1 {
+	position:absolute;
+	width:100%;
+	height:350px;
+	z-index:1;
+	left: 0px;
+	top: 0px;
+	background-image: url(../images/mymainbg.jpg);
+}
+#Layer2 {
+	position:absolute;
+	width:399px;
+	height:150px;
+	z-index:1;
+	left: 11px;
+	top: 100px;
+	background-image: url(../images/mylogo.jpg);
+}
+#Layer3 {
+	position:absolute;
+	width:500px;
+	height:50px;
+	z-index:2;
+	left: 150px;
+	top: 2px;
+}
+-->
+</style>
+<link href="../css/mycss.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#Layer4 {
+	position:absolute;
+	width:300px;
+	height:48px;
+	z-index:3;
+	left: 1342px;
+	top: 2px;
+}
+#Layer5 {
+	position:absolute;
+	width:550px;
+	height:40px;
+	z-index:4;
+	left: 1050px;
+	top: 200px;
+}
+#Layer6 {
+	position: absolute;
+	width: 1200px;
+	height: 597px;
+	z-index: 2;
+	left: 250px;
+	top: 350px;
+}
+#Layer7 {
+	position:absolute;
+	left:1532px;
+	top:400px;
+	width:68px;
+	height:1400px;
+	z-index:3;
+	background-image: url(../images/logo.jpg);
+}
+#Layer8 {
+	position: absolute;
+	left: 1487px;
+	top: 398px;
+	width: 100px;
+	height: 300px;
+	z-index: 3;
+	background-color: #FFFFCC;
+}
+.STYLE4 {color: #3399FF; }
+#Layer9 {
+	position:absolute;
+	width:1200px;
+	height:500px;
+	z-index:1;
+	left: 0px;
+	top: 0px;
+}
+#Layer10 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:1;
+	left: 0px;
+	top: 50px;
+}
+#Layer11 {
+	position:absolute;
+	width:150px;
+	height:50px;
+	z-index:1;
+	left: 100px;
+	top: 0px;
+}
+#Layer12 {
+	position:absolute;
+	width:1200px;
+	height:400px;
+	z-index:2;
+	left: 0px;
+	top: 100px;
+}
+#Layer13 {
+	position:absolute;
+	width:1200px;
+	height:550px;
+	z-index:2;
+	left: 0px;
+	top: 500px;
+}
+#Layer14 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:1;
+	left: 0px;
+	top: 50px;
+}
+#Layer15 {
+	position:absolute;
+	width:150px;
+	height:50px;
+	z-index:1;
+	left: 100px;
+	top: 0px;
+}
+#Layer16 {
+	position:absolute;
+	width:1200px;
+	height:400px;
+	z-index:2;
+	left: 0px;
+	top: 102px;
+}
+#Layer17 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:3;
+	left: 0px;
+	top: 500px;
+	background-color: #CCCCCC;
+}
+#Layer18 {
+	position:absolute;
+	width:1200px;
+	height:550px;
+	z-index:3;
+	left: 0px;
+	top: 1050px;
+}
+#Layer19 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:1;
+	left: 0px;
+	top: 50px;
+}
+#Layer20 {
+	position:absolute;
+	width:150px;
+	height:50px;
+	z-index:1;
+	left: 100px;
+	top: 0px;
+}
+#Layer21 {
+	position:absolute;
+	width:1200px;
+	height:400px;
+	z-index:2;
+	left: 0px;
+	top: 100px;
+}
+#Layer22 {
+	position:absolute;
+	width:1198px;
+	height:50px;
+	z-index:3;
+	left: 2px;
+	top: 500px;
+	background-color: #CCCCCC;
+}
+#Layer23 {
+	position:absolute;
+	width:1200px;
+	height:550px;
+	z-index:4;
+	left: 0px;
+	top: 1600px;
+}
+#Layer24 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:4;
+	left: 0px;
+	top: 50px;
+}
+#Layer25 {
+	position:absolute;
+	width:150px;
+	height:50px;
+	z-index:1;
+	left: 100px;
+	top: 0px;
+}
+#Layer26 {
+	position:absolute;
+	width:1200px;
+	height:400px;
+	z-index:5;
+	left: 0px;
+	top: 100px;
+}
+#Layer27 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:6;
+	left: 0px;
+	top: 500px;
+	background-color: #CCCCCC;
+}
+#Layer28 {
+	position:absolute;
+	width:1200px;
+	height:550px;
+	z-index:5;
+	left: 0px;
+	top: 2150px;
+}
+#Layer29 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:4;
+	left: 0px;
+	top: 50px;
+}
+#Layer30 {
+	position:absolute;
+	width:150px;
+	height:50px;
+	z-index:1;
+	left: 100px;
+	top: 0px;
+}
+#Layer31 {
+	position: absolute;
+	width: 1200px;
+	height: 248px;
+	z-index: 5;
+	left: 3px;
+	top: 45px;
+}
+#Layer32 {
+	position:absolute;
+	width:1200px;
+	height:50px;
+	z-index:6;
+	left: 0px;
+	top: 500px;
+	background-color: #CCCCCC;
+}
+#Layer33 {
+	position: absolute;
+	width: 1200px;
+	height: 300px;
+	z-index: 6;
+	left: 3px;
+	top: 295px;
+}
+#Layer34 {
+	position:absolute;
+	width:1200px;
+	height:250px;
+	z-index:4;
+	left: 0px;
+	top: 50px;
+}
+#Layer35 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:1;
+	left: 50px;
+	top: 50px;
+	background-color: #FF00FF;
+}
+#Layer36 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:2;
+	left: 50px;
+	top: 250px;
+	background-color: #00FF00;
+}
+#Layer37 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:3;
+	left: 350px;
+	top: 50px;
+	background-color: #00FFFF;
+}
+#Layer38 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:4;
+	left: 350px;
+	top: 250px;
+	background-color: #FF0000;
+}
+#Layer39 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:5;
+	left: 650px;
+	top: 50px;
+	background-color: #FFFF00;
+}
+#Layer40 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:6;
+	left: 650px;
+	top: 250px;
+	background-color: #CCCCCC;
+}
+#Layer41 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:7;
+	left: 950px;
+	top: 50px;
+	background-color: #0000FF;
+}
+#Layer42 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:8;
+	left: 950px;
+	top: 250px;
+	background-color: #000000;
+}
+#Layer43 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:1;
+	left: 50px;
+	top: 50px;
+}
+#Layer44 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:2;
+	left: 50px;
+	top: 250px;
+}
+#Layer45 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:3;
+	left: 350px;
+	top: 50px;
+}
+#Layer46 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:4;
+	left: 350px;
+	top: 250px;
+}
+#Layer47 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:5;
+	left: 650px;
+	top: 50px;
+}
+#Layer48 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:6;
+	left: 650px;
+	top: 250px;
+}
+#Layer49 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:7;
+	left: 950px;
+	top: 50px;
+}
+#Layer50 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:8;
+	left: 950px;
+	top: 250px;
+}
+#Layer51 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:1;
+	left: 50px;
+	top: 50px;
+	background-color: #FF00FF;
+}
+#Layer52 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:2;
+	left: 350px;
+	top: 50px;
+	background-color: #00FFFF;
+}
+#Layer53 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:3;
+	left: 650px;
+	top: 50px;
+	background-color: #FFFF00;
+}
+#Layer54 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:4;
+	left: 950px;
+	top: 50px;
+	background-color: #0000FF;
+}
+#Layer55 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:5;
+	left: 50px;
+	top: 250px;
+	background-color: #00FF00;
+}
+#Layer56 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:6;
+	left: 350px;
+	top: 250px;
+	background-color: #FF0000;
+}
+#Layer57 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:7;
+	left: 650px;
+	top: 250px;
+	background-color: #CCCCCC;
+}
+#Layer58 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:8;
+	left: 950px;
+	top: 250px;
+	background-color: #000000;
+}
+#Layer59 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:1;
+	left: 50px;
+	top: 50px;
+	background-color: #FF00FF;
+}
+#Layer60 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:2;
+	left: 350px;
+	top: 50px;
+	background-color: #00FFFF;
+}
+#Layer61 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:3;
+	left: 650px;
+	top: 50px;
+	background-color: #FFFF00;
+}
+#Layer62 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:4;
+	left: 950px;
+	top: 50px;
+	background-color: #0000FF;
+}
+#Layer63 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:5;
+	left: 50px;
+	top: 250px;
+	background-color: #00FF00;
+}
+#Layer64 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:6;
+	left: 350px;
+	top: 250px;
+	background-color: #FF0000;
+}
+#Layer65 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:7;
+	left: 650px;
+	top: 250px;
+	background-color: #CCCCCC;
+}
+#Layer66 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:8;
+	left: 950px;
+	top: 250px;
+	background-color: #000000;
+}
+#Layer67 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:1;
+	left: 50px;
+	top: 50px;
+	background-color: #FF00FF;
+}
+#Layer68 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:2;
+	left: 350px;
+	top: 50px;
+	background-color: #00FFFF;
+}
+#Layer69 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:3;
+	left: 650px;
+	top: 50px;
+	background-color: #FFFF00;
+}
+#Layer70 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:4;
+	left: 950px;
+	top: 50px;
+	background-color: #0000FF;
+}
+#Layer71 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:5;
+	left: 50px;
+	top: 250px;
+	background-color: #00FF00;
+}
+#Layer72 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:6;
+	left: 350px;
+	top: 250px;
+	background-color: #FF0000;
+}
+#Layer73 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:7;
+	left: 650px;
+	top: 250px;
+	background-color: #CCCCCC;
+}
+#Layer74 {
+	position:absolute;
+	width:200px;
+	height:150px;
+	z-index:8;
+	left: 950px;
+	top: 250px;
+	background-color: #000000;
+}
+.STYLE5 {
+	font-size: 22px;
+	color: #FF9900;
+}
+#Layer75 {
+	position: absolute;
+	left: 1460px;
+	top: 905px;
+	width: 100px;
+	height: 50px;
+	z-index: 4;
+	background-color: #FFFFCC;
+}
+.STYLE7 {color: #666666}
+#Layer108 {position:absolute;
+	width:1200px;
+	height:92px;
+	z-index:12;
+	left: 250px;
+	top: 1000px;
+}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_validateForm() { //v4.0
+  var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+  for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=MM_findObj(args[i]);
+    if (val) { nm=val.name; if ((val=val.value)!="") {
+      if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+        if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+      } else if (test!='R') { num = parseFloat(val);
+        if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+        if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+          min=test.substring(8,p); max=test.substring(p+1);
+          if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+    } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+  } if (errors) alert('The following error(s) occurred:\n'+errors);
+  document.MM_returnValue = (errors == '');
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="Layer1">
+  <div id="Layer2"></div>
+  <div id="Layer3">
+    <table width="500" height="50" border="0" align="center" cellpadding="5" cellspacing="0">
+      <tr>
+        <td align="center" class="maintext"><a href="main.html"><img src="../images/icons/logo1.png" alt="" width="32" height="32" border="0" align="absmiddle" />主站</a><a name="maintop" id="maintop"></a></td>
+        <td align="center" class="maintext"><a href="anime.html" class="STYLE4"><img src="../images/icons/动漫.png" alt="" width="32" height="32" border="0" align="absmiddle" />动画</a></td>
+        <td align="center" valign="middle" class="maintext"><a href="comic.html"><img src="../images/icons/pc-漫画(1).png" alt="" width="32" height="32" border="0" align="absmiddle" />漫画</a></td>
+        <td align="center" class="maintext"><a href="game.html"><img src="../images/icons/游戏(1).png" alt="" width="32" height="32" border="0" align="absmiddle" />游戏</a></td>
+        <td align="center" class="maintext"><a href="novel.html"><img src="../images/icons/pc-轻小说.png" alt="" width="32" height="32" border="0" align="absmiddle" />小说</a></td>
+      </tr>
+    </table>
+  </div>
+  <div id="Layer4">
+    <table width="300" height="50" border="0" align="center" cellpadding="5" cellspacing="0">
+      <tr>
+        <td align="center"><a href="#"><img src="../images/notlogin.jpg" alt="" width="40" height="40" border="0" /></a></td>
+        <!--<td align="center" class="maintext"><a href="#">注册</a></td>-->
+        <!--<td align="center" class="maintext"><a href="#">登录</a></td>-->
+      </tr>
+    </table>
+  </div>
+</div>
+<div id="Layer6">
+    <article class="GIxHAe">
+  	<div class="XLK0Od">
+	<center>
+  <form action="main.html" method="post">
+    <table width="50%" style="text-align: right;">
+      <tr>
+        <td height="65" colspan="2" align="center" class="indextext"><h1 class="titletext">用户登陆</h1></td>
+        </tr>
+      <tr>
+        <td width="100" height="40" class="STYLE5">邮箱：</td>
+        <td width="100" height="40" align="left"><input type="text" name="email" placeholder="邮箱账号@域名。如good@tom.com、whj@sina.com.cn">
+        </td>
+      </tr>
+      <tr>
+        <td width="100" height="40" class="STYLE5">密码：</td>
+        <td width="100" height="40" align="left"><input type="password" name="pwd" placeholder="由英文字母和数字组成的4-10位字符">
+          </td>
+      </tr>
+      <tr>
+        <td height="40" colspan="2" align="center"><!--<input type="button" name="submit" value="立即注册">-->
+          <a href="main.html">
+            <button class="blue" onclick="MM_validateForm('email','','RisEmail');MM_validateForm('pwd','','R');return document.MM_returnValue">登陆</button>
+            </a></td>
+      </tr>
+    </table>
+  </form>
+	</center>
+	</div>
+  </article>
+  <div id="Layer33">
+    <div id="Layer34">
+      <table width="1200" height="250" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><table width="400" height="250" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="125" colspan="2" class="dottedline"><span class="STYLE7">HappyACGN</span></td>
+              </tr>
+              <tr>
+                <td width="200" height="125"><a href="https://www.bilibili.com">友情链接</a></td>
+                <td width="200" height="125" class="dottedline"><a href="mailto:1119363048@qq.com">联系我们</a></td>
+              </tr>
+          </table></td>
+          <td><table width="400" height="250" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="124" colspan="2" class="dottedline"><span class="STYLE7">传送门</span></td>
+              </tr>
+              <tr>
+                <td width="200" height="125"><a href="bgimg.html">壁纸站</a></td>
+                <td width="200" height="125" class="dottedline"><a href="feedback.html">用户反馈论坛</a></td>
+              </tr>
+          </table></td>
+          <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><div align="center"><a href="clientdownload.html"><img src="../images/download.jpg" alt="" width="60" height="60" border="0" /></a></div></td>
+                <td><div align="center"><a href="officialweibo.html"><img src="../images/sina.jpg" alt="" width="100" height="60" border="0" /></a></div></td>
+                <td><div align="center"><a href="officialweixin.html"><img src="../images/weixin.jpg" alt="" width="80" height="60" border="0" /></a></div></td>
+              </tr>
+              <tr>
+                <td><div align="center"><a href="clientdownload.html">客户端下载</a></div></td>
+                <td><div align="center"><a href="officialweibo.html">新浪微博</a></div></td>
+                <td><div align="center"><a href="officialweixin.html">官方微信</a></div></td>
+              </tr>
+          </table></td>
+        </tr>
+      </table>
+    </div>
+    <p>&nbsp;</p>
+  </div>
+</div>
+<script>
+		//验证用户名
+function check_userName() {
+  var userName = document.getElementById("name").value;
+  var regName = /[a-zA-Z]\w{4,16}/
+  if (userName == "" || userName.trim() == "") {
+    document.getElementById("err_name").innerHTML = "请输入用户名";
+    return false;
+  } else if (!regName.test(userName)) {
+    document.getElementById("err_name").innerHTML = "由英文字母和数字组成的4-16位字符，以字母开头";
+    return false;
+  } else {
+    document.getElementById("err_name").innerHTML = "ok!!!";
+    return true;
+  }
+}
+//验证昵称
+function check_nickName() {
+  var nickName = document.getElementById("nick").value;
+  var regName = /[\u4e00-\u9fa5]{2,6}/
+  if (nickName == "" || nickName.trim() == "") {
+    document.getElementById("err_nick").innerHTML = "请输入昵称";
+    return false;
+  } else if (!regName.test(nickName)) {
+    document.getElementById("err_nick").innerHTML = "由2-6个汉字组成";
+    return false;
+  } else {
+    document.getElementById("err_nick").innerHTML = "ok!!!";
+    return true;
+  }
+}
+//验证邮箱
+function check_email() {
+  var email = document.getElementById("email").value;
+  var regEmail = /^\w+@\w+((\.\w+)+)$/;
+  if (email == "" || email.trim() == "") {
+    document.getElementById("err_email").innerHTML = "请输入邮箱";
+    return false;
+  } else if (!regEmail.test(email)) {
+    document.getElementById("err_email").innerHTML = "邮箱账号@域名。如good@tom.com、whj@sina.com.cn";
+    return false;
+  } else {
+    document.getElementById("err_email").innerHTML = "ok!!!";
+    return true;
+  }
+}
+//验证密码
+function check_pwd() {
+  var pwd = document.getElementById("pwd").value;
+  var regPwd = /^\w{4,10}$/;
+  if (pwd == "" || pwd.trim() == "") {
+    document.getElementById("err_pwd").innerHTML = "请输入密码";
+    return false;
+  } else if (!regPwd.test(pwd)) {
+    document.getElementById("err_pwd").innerHTML = "格式错误";
+    return false;
+  } else {
+    document.getElementById("err_pwd").innerHTML = "ok!!!";
+    return true;
+  }
+}
+//确认密码
+function check_pwd2() {
+  var pwd = document.getElementById("pwd").value;
+  var pwd2 = document.getElementById("pwd2").value;
+  if (pwd2 == "" || pwd2.trim() == "") {
+    document.getElementById("err_pwd2").innerHTML = "请输入密码";
+    return false;
+  } else if (!pwd2.equals(pwd)) {
+    document.getElementById("err_pwd2").innerHTML = "两次输入密码不一致";
+    return false;
+  } else {
+    document.getElementById("err_pwd2").innerHTML = "ok!!!";
+    return true;
+  }
+}
+//验证手机号
+function check_phone() {
+  var phone = document.getElementById("phone").value;
+  var regPhone = /[13,15,18]\d{9}/;
+  if (phone == "" || phone.trim() == "") {
+    document.getElementById("err_phone").innerHTML = "请输入手机号";
+    return false;
+  } else if (!regPhone.test(phone)) {
+    document.getElementById("err_phone").innerHTML = "手机号由11位数字组成，且以13,15,18开头";
+    return false;
+  } else {
+    document.getElementById("err_phone").innerHTML = "ok!!!";
+    return true;
+  }
+}
+//验证时间
+function check_date() {
+  var birthday = document.getElementById("birthday").value;
+  var regDate = /[13,15,18]\d{9}/;
+  if (birthday == "" || birthday.trim() == "") {
+    document.getElementById("err_date").innerHTML = "请输入日期";
+    return false;
+  } else if (!regDate.test(birthday)) {
+    document.getElementById("err_date").innerHTML = "出生日期在1990-2009之间";
+    return false;
+  } else {
+    document.getElementById("err_date").innerHTML = "ok!!!";
+    return true;
+  }
+}
+    </script>
+<div id="Layer108">
+  <div align="center">&copy;2019. All Rights Reserved<br />
+    HappyACGN 版权所有</div>
+</div>
+</body>
+</html>

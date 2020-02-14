@@ -1,0 +1,33 @@
+.ntitle {
+	font-family: "宋体";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+	color: #0000CC;
+}
+.infor {
+	font-family: "宋体";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #00CC66;
+}
+.name {
+	font-family: "楷体";
+	font-size: 18px;
+	font-weight: bolder;
+	color: #999999;
+}
+.qbutton {
+	font-family: "楷体";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+	color: #66CCCC;
+}
+.content {
+	font-family: "楷体";
+	font-size: 20px;
+	font-weight: normal;
+	color: #333333;
+}
